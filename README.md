@@ -19,9 +19,9 @@ cd react
 yarn install
 cd ..
 sh build.sh
-cd server
-yarn start
 ```
+
+## Usage
 
 Take the ip address of your computer you used as server:
 
@@ -29,12 +29,16 @@ Take the ip address of your computer you used as server:
 ifconfig
 ```
 
+Open the terminal pointed to the project directory:
+
+```bash
+cd server
+yarn start
+```
+
 Point the mobile devices to :   **http://your.computer.ip.address:3000**
 
-
-## Usage
-
-To modify the client/react side you need a rebuild before starting again the server:
+**If you want to modify the client/react side, after you'll need a rebuild before starting again the server:**
 
 ```bash
 sh build.sh
