@@ -1,0 +1,108 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:
+    border-box; 
+}
+body { 
+    font: 16px Helvetica, Arial; 
+}
+
+li {
+    margin: 1%;
+    width: max-content;
+    max-width: 100%;
+    word-break: break-word;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+#input-name {
+    margin-top: 20px;
+}
+
+#box {
+    background-image: url(./media/bg.png);
+    width: auto;
+    @media screen and (min-width:1280px)  {
+        height: auto;
+    }
+    @media screen and (max-width:1280px)  {
+        height: 93vh;
+    }
+}
+
+@font-face {
+    font-family: 'HeaderFont';
+    src: url(./fonts/LilyoftheValley.ttf)
+}
+
+
+#header {
+    height: 10vh;
+    text-align: center;
+    font-size: 40px;
+}
+
+#p-header {
+    font-family: HeaderFont;
+    padding-top: 5%;
+}
+
+#contents {
+    overflow: scroll;
+    @media screen and (min-width:1280px)  {
+        height: 80vh;
+    }
+    @media screen and (max-width: 1280px)  {
+        height: 73vh;
+    }
+}
+
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px;}
+
+.my-message {
+    background-color: #dcf8c6;
+    float: right;
+}
+
+.incoming-message {
+    background-color: white;
+    float: left;
+}
+
+#friend {
+    margin-bottom: 0.5rem;
+}
+
+#form-new-messages {
+    height: 10vh;
+}
+
+
+#input-message {
+    height: 50%;
+    position: relative;
+    top: 25%;
+    width: 80%;
+    border: 2px solid;
+    margin-left: 5%;
+    outline: none;
+}
+
+#button-send {
+    width: 7vh;
+    border-radius: 100%;
+    height: 7vh;
+    border: 2px solid #0d7bff;
+    top: 15%;
+    position: relative;
+    margin-left: 2%;
+    outline: none;
+    background-image: url(./media/send.png);
+    background-size: contain;
+}
