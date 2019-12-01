@@ -36,7 +36,7 @@ cd server
 yarn start
 ```
 
-Point the mobile devices to :   **http://your.server.ip.address:3000**
+Connect your devices to the same network of your server/computer and point the mobile devices to :   **http://your.server.ip.address:3000**
 
 **If you want to modify the client/react side, after you'll need a rebuild before starting again the server:**
 
